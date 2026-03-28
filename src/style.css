@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #cfe9e7, #f5e6d3, #e8cfd8);
+}
+
+/* 全体ラッパー */
+.wrapper {
+    width: 100%;
+}
+
+/* ヘッダー */
+#header {
+    text-align: center;
+    padding: 20px;
+}
+
+#header h1 {
+    margin: 0;
+}
+
+/* メイン */
+#main {
+    display: flex;
+    justify-content: center;
+}
+
+/* フォーム本体 */
+form {
+    background: #eee;
+    padding: 30px;
+    border-radius: 10px;
+    width: 400px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* 各入力グループ */
+.font-group {
+    margin-bottom: 15px;
+}
+
+/* ラベル */
+.font-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+/* 入力欄 */
+.font-group input,
+.font-group textarea,
+.font-group select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* テキストエリア */
+textarea {
+    resize: none;
+    height: 80px;
+}
+
+/* 送信ボタン */
+.submit-button {
+    text-align: left;
+}
+
+.send-button {
+    background: #2d7df6;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* ホバー */
+.send-button:hover {
+    background: #1a5fd1;
+}
+
+.confirm-box {
+    width: 400px;
+    margin-left: 60px;
+}
+
+.confirm-box h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.confirm-box p {
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+#main {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px; /* 間隔 */
+}
+
+/* 右側 */
+.confirm-box {
+    width: 400px;
+    margin-top: 100px; /* フォームと高さ合わせ */
+}
+
+.confirm-box h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.confirm-box p {
+    font-size: 18px;
+    margin: 10px 0;
+}
