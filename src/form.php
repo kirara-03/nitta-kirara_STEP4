@@ -53,7 +53,7 @@
             <!-- 性別 -->
             <div class="font-group">
                 <label>性別:</label>
-                <select name="gender">
+                <select name="gender" required>
                     <option value=""></option>
                     <option value="男性">男性</option>
                     <option value="女性">女性</option>
