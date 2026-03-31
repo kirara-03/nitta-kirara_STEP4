@@ -17,43 +17,43 @@
             <!-- 名前 -->
             <div class="font-group">
                 <label>名前:</label>
-                <input type="text" name="name">
+                <input type="text" name="name" id="name">
             </div>
 
             <!-- 年齢 -->
             <div class="font-group">
                 <label>年齢:</label>
-                <input type="number" name="age">
+                <input type="number" name="age" id="age">
             </div>
 
             <!-- 電話番号　-->
             <div class="font-group">
                 <label>電話番号:</label>
-                <input type="text" name="tel">
+                <input type="text" name="tel" id="tel">
             </div>
 
             <!-- メールアドレス　-->
             <div class="font-group">
                 <label>メールアドレス:</label>
-                <input type="email" name="email">
+                <input type="email" name="email" id="email">
             </div>
 
             <!-- 住所　-->
             <div class="font-group">
                 <label>住所:</label>
-                <input type="text" name="address">
+                <input type="text" name="address" id="address">
             </div>
 
             <!-- 質問 -->
             <div class="font-group">
                 <label>質問:</label>
-                <textarea name="question"></textarea>
+                <textarea name="question" id="question"></textarea>
             </div>
 
             <!-- 性別 -->
             <div class="font-group">
                 <label>性別:</label>
-                <select name="gender" required>
+                <select name="gender" id="gender" required>
                     <option value=""></option>
                     <option value="男性">男性</option>
                     <option value="女性">女性</option>
